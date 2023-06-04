@@ -12,7 +12,7 @@ need to be periodically sampled to be read by applications, easily, such as:
 * Light dependent resistors (LDR), etc.
 
 
-Up to 4 analog samples can be recorded by the hardware (``A0`` ... ``A4``), and all
+Up to 4 analog samples can be recorded by the hardware (``A0`` ... ``A3``), and all
 recording is done at 16-bit levels (but be aware that the ADC in the Pico will only
 ever return values between 0...4095).
 
